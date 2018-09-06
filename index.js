@@ -21,7 +21,7 @@ return [...kittens, name];
 
 }
 function prepenedKitten(name) {
- return [name, ...kittens];
+ return [name,...kittens];
   
 }
 function removeFirstKitten() {
