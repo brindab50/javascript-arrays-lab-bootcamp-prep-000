@@ -17,11 +17,11 @@ function destructivelyRemoveFirstKitten() {
   return kittens
 }
 function appendKitten(name){
-  [...array, kittens];
+  [...kittens, array];
   return kitten
 }
 function prepenedKitten(name) {
-  [kittens, ...array];
+  [array, ...kittens];
   return array
 }
 function removeFirstKitten() {
