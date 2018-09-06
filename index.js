@@ -18,11 +18,11 @@ function destructivelyRemoveFirstKitten() {
 }
 function appendKitten(name){
   [...kittens, name];
-  return array
+
 }
 function prepenedKitten(name) {
   [name, ...kittens];
-  return array
+  
 }
 function removeFirstKitten() {
  kittens = kittens.slice(1);
